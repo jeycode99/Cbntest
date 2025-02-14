@@ -54,7 +54,12 @@ const Login = () => {
             />
           </div>
           {error && <div className="text-red-500 text-sm mb-4">{error}</div>}
-          <button type="submit" className="w-full py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">Login</button>
+          <button
+            type="submit"
+            className="w-full py-2 px-4 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          >
+            Login
+          </button>
         </form>
       </div>
     </div>
